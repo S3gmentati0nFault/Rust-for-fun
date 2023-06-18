@@ -1,5 +1,5 @@
 fn main() {
-    let value:u64 = 600851475143;
+    let value : u64 = 600851475143;
     let mut flag = true;
     let mut i = 2;
     let mut largest_prime = 1;
@@ -15,6 +15,7 @@ fn main() {
         }
         i += 1;
     }
+
     println!("{}", largest_prime);
 }
 
